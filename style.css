@@ -1,0 +1,127 @@
+.grey {
+    color: grey;
+}
+.green {
+    color: #1eff00;
+}
+.blue {
+    color: #0070ff;
+}
+.purple {
+    color: #a335ee;
+}
+.orange { 
+    color: #ff8000;
+}
+.pink {
+    color: #e268a8;
+}
+.gold {
+    color: #e5cc80;
+}
+.logs {
+    text-align: center;
+}
+.table_container {
+    width: 100%;
+    overflow-x: auto;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 600px;
+    color: #ffffff;
+}
+body {
+    background-color: #252525;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    display: inline-block;
+}
+th, td {
+    border: 1px solid #ffffff;
+    padding: 8px;
+}
+th, td:not(.pasta_msg):not(.gif_url) {
+    white-space: nowrap;
+}
+img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+td.rb1, td.rb2, td.rb3 {
+    text-align: center;
+}
+.div_wrapper {
+    text-align: left;
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-right: 5px;
+}
+.rh1 {
+    min-width: 25px;
+}
+.rh2 {
+    min-width: 30px;
+}
+td.rb1.nickname {
+    min-width: 330px;
+}
+.counter_before, .counter_after {
+    min-width: 45px;
+}
+.counter_percent {
+    min-width: 55px;
+}
+.year_full, year_last {
+    min-width: 55px;
+}
+.table2.rh5, .table2.rh6 {
+    min-width: 60px;
+    max-width: 70px;
+}
+.table2.rh7 {
+    min-width: 60px;
+    max-width: 125px;
+}
+.table3.rh5, .table3.rh6 {
+    min-width: 60px;
+    max-width: 70px;
+}
+.table3.rh7 {
+    min-width: 60px;
+    max-width: 125px;
+}
+.gif_url {
+    overflow: visible;
+    max-width: 150px;
+    max-height: 150px;
+    width:100%;
+    height: 100%;
+    cursor: pointer;
+}
+.gif_modal.active {
+    display: flex;
+}
+.gif_modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+.gif_modal > img {
+    max-width: 90%;
+    max-height: 90%;
+    width:auto;
+    height:auto;
+    border-radius:6%;
+    cursor: pointer
+}
