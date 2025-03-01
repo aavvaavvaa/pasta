@@ -125,3 +125,24 @@ td.rb1.nickname {
     border-radius:6%;
     cursor: pointer
 }
+#buttons {
+    margin-bottom: 20px;
+}
+.tab-btn {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #0056b3;
+    color: white;
+    border-radius: 5px;
+}
+.tab-btn.active {
+    background-color: #007bff;
+}
+.table_container {
+    display: none;
+}
+.table_container.active {
+    display: block;
+}
