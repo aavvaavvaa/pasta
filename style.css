@@ -50,7 +50,7 @@ img {
     height: 40px;
     border-radius: 50%;
 }
-td.rb1, td.rb2, td.rb3 {
+td.rb1, td.rb2, td.rb3, td.rb4 {
     text-align: center;
 }
 .div_wrapper {
@@ -141,7 +141,8 @@ td.rb1.nickname {
     border-radius: 5px;
     font-weight: bold;
     font-size: 16px;
-    width: 200px;
+    /* width: 200px; */
+    width: auto;
 }
 .tab-btn.active {
     background-color: #33acf7;
